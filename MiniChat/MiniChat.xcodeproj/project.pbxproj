@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F7AE801DB71249000025D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AE7F1DB71249000025D2 /* AppDelegate.swift */; };
+		16F7AE821DB71249000025D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AE811DB71249000025D2 /* ViewController.swift */; };
+		16F7AE851DB71249000025D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F7AE831DB71249000025D2 /* Main.storyboard */; };
+		16F7AE881DB71249000025D2 /* MiniChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AE861DB71249000025D2 /* MiniChat.xcdatamodeld */; };
+		16F7AE8A1DB71249000025D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F7AE891DB71249000025D2 /* Assets.xcassets */; };
+		16F7AE8D1DB71249000025D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F7AE8B1DB71249000025D2 /* LaunchScreen.storyboard */; };
+		16F7AE981DB71249000025D2 /* MiniChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AE971DB71249000025D2 /* MiniChatTests.swift */; };
+		16F7AEA31DB71249000025D2 /* MiniChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEA21DB71249000025D2 /* MiniChatUITests.swift */; };
+		16F7AEB11DB71261000025D2 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEB01DB71261000025D2 /* ChatsViewController.swift */; };
+		16F7AEB31DB71272000025D2 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEB21DB71272000025D2 /* MessagesViewController.swift */; };
+		16F7AEB81DB712C9000025D2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEB71DB712C9000025D2 /* User.swift */; };
+		16F7AEBA1DB712D1000025D2 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEB91DB712D1000025D2 /* Chat.swift */; };
+		16F7AEBC1DB712D9000025D2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEBB1DB712D9000025D2 /* Message.swift */; };
+		16F7AEBE1DB713CC000025D2 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F7AEBD1DB713CC000025D2 /* ChatTableViewCell.swift */; };
+		1E522A861217754CBAD68D0B /* Pods_MiniChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2F94E70F56E77C5F1C5ED4 /* Pods_MiniChat.framework */; };
+		67879BC6CB52EA718A8121A0 /* Pods_MiniChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FD9DBB0785AECD697BE9481 /* Pods_MiniChatTests.framework */; };
+		88EE2245335C89E88EC105C5 /* Pods_MiniChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E172BB90BC413DE94EE420A /* Pods_MiniChatUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F7AE941DB71249000025D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F7AE741DB71249000025D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F7AE7B1DB71249000025D2;
+			remoteInfo = MiniChat;
+		};
+		16F7AE9F1DB71249000025D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16F7AE741DB71249000025D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F7AE7B1DB71249000025D2;
+			remoteInfo = MiniChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F2F94E70F56E77C5F1C5ED4 /* Pods_MiniChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F7AE7C1DB71249000025D2 /* MiniChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F7AE7F1DB71249000025D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16F7AE811DB71249000025D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16F7AE841DB71249000025D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16F7AE871DB71249000025D2 /* MiniChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniChat.xcdatamodel; sourceTree = "<group>"; };
+		16F7AE891DB71249000025D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16F7AE8C1DB71249000025D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16F7AE8E1DB71249000025D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F7AE931DB71249000025D2 /* MiniChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F7AE971DB71249000025D2 /* MiniChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChatTests.swift; sourceTree = "<group>"; };
+		16F7AE991DB71249000025D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F7AE9E1DB71249000025D2 /* MiniChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F7AEA21DB71249000025D2 /* MiniChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChatUITests.swift; sourceTree = "<group>"; };
+		16F7AEA41DB71249000025D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F7AEB01DB71261000025D2 /* ChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		16F7AEB21DB71272000025D2 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		16F7AEB71DB712C9000025D2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		16F7AEB91DB712D1000025D2 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		16F7AEBB1DB712D9000025D2 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		16F7AEBD1DB713CC000025D2 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		1E172BB90BC413DE94EE420A /* Pods_MiniChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C013245BF4B4B9957951E54 /* Pods-MiniChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniChatUITests/Pods-MiniChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FD9DBB0785AECD697BE9481 /* Pods_MiniChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30650D36090812EBC4059BE3 /* Pods-MiniChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniChatUITests/Pods-MiniChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		953168650087E29298F2C5A3 /* Pods-MiniChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniChatTests/Pods-MiniChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB0B325A145FC8FEBA3F6A50 /* Pods-MiniChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniChat/Pods-MiniChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B61AF924F7C7DC1A7C859A70 /* Pods-MiniChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiniChatTests/Pods-MiniChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1172C9336DB4BC7E783169C /* Pods-MiniChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiniChat/Pods-MiniChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16F7AE791DB71249000025D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E522A861217754CBAD68D0B /* Pods_MiniChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7AE901DB71249000025D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67879BC6CB52EA718A8121A0 /* Pods_MiniChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7AE9B1DB71249000025D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EE2245335C89E88EC105C5 /* Pods_MiniChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F7AE731DB71249000025D2 = {
+			isa = PBXGroup;
+			children = (
+				16F7AE7E1DB71249000025D2 /* MiniChat */,
+				16F7AE961DB71249000025D2 /* MiniChatTests */,
+				16F7AEA11DB71249000025D2 /* MiniChatUITests */,
+				16F7AE7D1DB71249000025D2 /* Products */,
+				90E799F2C8C827C4C64C2817 /* Pods */,
+				A89AB698E34C2952EABB42B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16F7AE7D1DB71249000025D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AE7C1DB71249000025D2 /* MiniChat.app */,
+				16F7AE931DB71249000025D2 /* MiniChatTests.xctest */,
+				16F7AE9E1DB71249000025D2 /* MiniChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16F7AE7E1DB71249000025D2 /* MiniChat */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AEB61DB712C0000025D2 /* Model */,
+				16F7AEB51DB712B3000025D2 /* MessagesViewController */,
+				16F7AEB41DB712AB000025D2 /* ChatsViewController */,
+				16F7AE7F1DB71249000025D2 /* AppDelegate.swift */,
+				16F7AE811DB71249000025D2 /* ViewController.swift */,
+				16F7AE831DB71249000025D2 /* Main.storyboard */,
+				16F7AE891DB71249000025D2 /* Assets.xcassets */,
+				16F7AE8B1DB71249000025D2 /* LaunchScreen.storyboard */,
+				16F7AE8E1DB71249000025D2 /* Info.plist */,
+				16F7AE861DB71249000025D2 /* MiniChat.xcdatamodeld */,
+			);
+			path = MiniChat;
+			sourceTree = "<group>";
+		};
+		16F7AE961DB71249000025D2 /* MiniChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AE971DB71249000025D2 /* MiniChatTests.swift */,
+				16F7AE991DB71249000025D2 /* Info.plist */,
+			);
+			path = MiniChatTests;
+			sourceTree = "<group>";
+		};
+		16F7AEA11DB71249000025D2 /* MiniChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AEA21DB71249000025D2 /* MiniChatUITests.swift */,
+				16F7AEA41DB71249000025D2 /* Info.plist */,
+			);
+			path = MiniChatUITests;
+			sourceTree = "<group>";
+		};
+		16F7AEB41DB712AB000025D2 /* ChatsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AEB01DB71261000025D2 /* ChatsViewController.swift */,
+				16F7AEBD1DB713CC000025D2 /* ChatTableViewCell.swift */,
+			);
+			name = ChatsViewController;
+			sourceTree = "<group>";
+		};
+		16F7AEB51DB712B3000025D2 /* MessagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AEB21DB71272000025D2 /* MessagesViewController.swift */,
+			);
+			name = MessagesViewController;
+			sourceTree = "<group>";
+		};
+		16F7AEB61DB712C0000025D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16F7AEB71DB712C9000025D2 /* User.swift */,
+				16F7AEB91DB712D1000025D2 /* Chat.swift */,
+				16F7AEBB1DB712D9000025D2 /* Message.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90E799F2C8C827C4C64C2817 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B325A145FC8FEBA3F6A50 /* Pods-MiniChat.debug.xcconfig */,
+				C1172C9336DB4BC7E783169C /* Pods-MiniChat.release.xcconfig */,
+				B61AF924F7C7DC1A7C859A70 /* Pods-MiniChatTests.debug.xcconfig */,
+				953168650087E29298F2C5A3 /* Pods-MiniChatTests.release.xcconfig */,
+				30650D36090812EBC4059BE3 /* Pods-MiniChatUITests.debug.xcconfig */,
+				2C013245BF4B4B9957951E54 /* Pods-MiniChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A89AB698E34C2952EABB42B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F2F94E70F56E77C5F1C5ED4 /* Pods_MiniChat.framework */,
+				2FD9DBB0785AECD697BE9481 /* Pods_MiniChatTests.framework */,
+				1E172BB90BC413DE94EE420A /* Pods_MiniChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16F7AE7B1DB71249000025D2 /* MiniChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F7AEA71DB71249000025D2 /* Build configuration list for PBXNativeTarget "MiniChat" */;
+			buildPhases = (
+				86442B1E1C3A9CB3843C298F /* [CP] Check Pods Manifest.lock */,
+				16F7AE781DB71249000025D2 /* Sources */,
+				16F7AE791DB71249000025D2 /* Frameworks */,
+				16F7AE7A1DB71249000025D2 /* Resources */,
+				F60EF55D41F7A36C9E2831A1 /* [CP] Embed Pods Frameworks */,
+				4A97A4D8931F5CF85AB0D5DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniChat;
+			productName = MiniChat;
+			productReference = 16F7AE7C1DB71249000025D2 /* MiniChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16F7AE921DB71249000025D2 /* MiniChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F7AEAA1DB71249000025D2 /* Build configuration list for PBXNativeTarget "MiniChatTests" */;
+			buildPhases = (
+				05099E64F5E679BE8F031E2D /* [CP] Check Pods Manifest.lock */,
+				16F7AE8F1DB71249000025D2 /* Sources */,
+				16F7AE901DB71249000025D2 /* Frameworks */,
+				16F7AE911DB71249000025D2 /* Resources */,
+				BA568F614DD2FCEF2C54FFBE /* [CP] Embed Pods Frameworks */,
+				368BF34990A76DDD9F55B3C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F7AE951DB71249000025D2 /* PBXTargetDependency */,
+			);
+			name = MiniChatTests;
+			productName = MiniChatTests;
+			productReference = 16F7AE931DB71249000025D2 /* MiniChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16F7AE9D1DB71249000025D2 /* MiniChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16F7AEAD1DB71249000025D2 /* Build configuration list for PBXNativeTarget "MiniChatUITests" */;
+			buildPhases = (
+				2E7840AD55B5B6137049BDEF /* [CP] Check Pods Manifest.lock */,
+				16F7AE9A1DB71249000025D2 /* Sources */,
+				16F7AE9B1DB71249000025D2 /* Frameworks */,
+				16F7AE9C1DB71249000025D2 /* Resources */,
+				324E7F5AA45B3CA8F2466EA0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16F7AEA01DB71249000025D2 /* PBXTargetDependency */,
+			);
+			name = MiniChatUITests;
+			productName = MiniChatUITests;
+			productReference = 16F7AE9E1DB71249000025D2 /* MiniChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16F7AE741DB71249000025D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Akkshay Khoslaa";
+				TargetAttributes = {
+					16F7AE7B1DB71249000025D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4X45GCW87V;
+						ProvisioningStyle = Automatic;
+					};
+					16F7AE921DB71249000025D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4X45GCW87V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16F7AE7B1DB71249000025D2;
+					};
+					16F7AE9D1DB71249000025D2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4X45GCW87V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16F7AE7B1DB71249000025D2;
+					};
+				};
+			};
+			buildConfigurationList = 16F7AE771DB71249000025D2 /* Build configuration list for PBXProject "MiniChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16F7AE731DB71249000025D2;
+			productRefGroup = 16F7AE7D1DB71249000025D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16F7AE7B1DB71249000025D2 /* MiniChat */,
+				16F7AE921DB71249000025D2 /* MiniChatTests */,
+				16F7AE9D1DB71249000025D2 /* MiniChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16F7AE7A1DB71249000025D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F7AE8D1DB71249000025D2 /* LaunchScreen.storyboard in Resources */,
+				16F7AE8A1DB71249000025D2 /* Assets.xcassets in Resources */,
+				16F7AE851DB71249000025D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7AE911DB71249000025D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7AE9C1DB71249000025D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05099E64F5E679BE8F031E2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2E7840AD55B5B6137049BDEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		324E7F5AA45B3CA8F2466EA0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniChatUITests/Pods-MiniChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		368BF34990A76DDD9F55B3C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniChatTests/Pods-MiniChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A97A4D8931F5CF85AB0D5DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniChat/Pods-MiniChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86442B1E1C3A9CB3843C298F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA568F614DD2FCEF2C54FFBE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniChatTests/Pods-MiniChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60EF55D41F7A36C9E2831A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiniChat/Pods-MiniChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16F7AE781DB71249000025D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F7AEB31DB71272000025D2 /* MessagesViewController.swift in Sources */,
+				16F7AE881DB71249000025D2 /* MiniChat.xcdatamodeld in Sources */,
+				16F7AEBA1DB712D1000025D2 /* Chat.swift in Sources */,
+				16F7AEBE1DB713CC000025D2 /* ChatTableViewCell.swift in Sources */,
+				16F7AEB81DB712C9000025D2 /* User.swift in Sources */,
+				16F7AE821DB71249000025D2 /* ViewController.swift in Sources */,
+				16F7AEBC1DB712D9000025D2 /* Message.swift in Sources */,
+				16F7AEB11DB71261000025D2 /* ChatsViewController.swift in Sources */,
+				16F7AE801DB71249000025D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7AE8F1DB71249000025D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F7AE981DB71249000025D2 /* MiniChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16F7AE9A1DB71249000025D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F7AEA31DB71249000025D2 /* MiniChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16F7AE951DB71249000025D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F7AE7B1DB71249000025D2 /* MiniChat */;
+			targetProxy = 16F7AE941DB71249000025D2 /* PBXContainerItemProxy */;
+		};
+		16F7AEA01DB71249000025D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16F7AE7B1DB71249000025D2 /* MiniChat */;
+			targetProxy = 16F7AE9F1DB71249000025D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16F7AE831DB71249000025D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F7AE841DB71249000025D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16F7AE8B1DB71249000025D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16F7AE8C1DB71249000025D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16F7AEA51DB71249000025D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16F7AEA61DB71249000025D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16F7AEA81DB71249000025D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0B325A145FC8FEBA3F6A50 /* Pods-MiniChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = MiniChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.MiniChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		16F7AEA91DB71249000025D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1172C9336DB4BC7E783169C /* Pods-MiniChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = MiniChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.MiniChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		16F7AEAB1DB71249000025D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61AF924F7C7DC1A7C859A70 /* Pods-MiniChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = MiniChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.MiniChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniChat.app/MiniChat";
+			};
+			name = Debug;
+		};
+		16F7AEAC1DB71249000025D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953168650087E29298F2C5A3 /* Pods-MiniChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = MiniChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.MiniChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniChat.app/MiniChat";
+			};
+			name = Release;
+		};
+		16F7AEAE1DB71249000025D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30650D36090812EBC4059BE3 /* Pods-MiniChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = MiniChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.MiniChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MiniChat;
+			};
+			name = Debug;
+		};
+		16F7AEAF1DB71249000025D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C013245BF4B4B9957951E54 /* Pods-MiniChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4X45GCW87V;
+				INFOPLIST_FILE = MiniChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.khoslaa.MiniChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MiniChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16F7AE771DB71249000025D2 /* Build configuration list for PBXProject "MiniChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F7AEA51DB71249000025D2 /* Debug */,
+				16F7AEA61DB71249000025D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F7AEA71DB71249000025D2 /* Build configuration list for PBXNativeTarget "MiniChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F7AEA81DB71249000025D2 /* Debug */,
+				16F7AEA91DB71249000025D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F7AEAA1DB71249000025D2 /* Build configuration list for PBXNativeTarget "MiniChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F7AEAB1DB71249000025D2 /* Debug */,
+				16F7AEAC1DB71249000025D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16F7AEAD1DB71249000025D2 /* Build configuration list for PBXNativeTarget "MiniChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16F7AEAE1DB71249000025D2 /* Debug */,
+				16F7AEAF1DB71249000025D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16F7AE861DB71249000025D2 /* MiniChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16F7AE871DB71249000025D2 /* MiniChat.xcdatamodel */,
+			);
+			currentVersion = 16F7AE871DB71249000025D2 /* MiniChat.xcdatamodel */;
+			path = MiniChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16F7AE741DB71249000025D2 /* Project object */;
+}
